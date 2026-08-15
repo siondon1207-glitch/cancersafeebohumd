@@ -1,23 +1,1535 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+    <!-- JSON-LD Structured Data for AI & Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://cancer.reliabledone.com/guide#article",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://cancer.reliabledone.com/#website",
+            "url": "https://cancer.reliabledone.com/",
+            "name": "보험정책연구소 암보험 분석센터"
+          },
+          "headline": "2026년 암보험 추천 및 연령별 보험료 비교 분석: 비갱신형 최저가 설계 전략",
+          "description": "2026년 최신 보험 요율과 치료 기법을 반영한 연령별 암보험 비교 추천 가이드. 20대부터 60대까지 다이렉트 견적과 진단비, 수술비, 표적항암약물허가치료 특약을 정밀 분석합니다.",
+          "inLanguage": "ko-KR",
+          "datePublished": "2026-01-05T09:00:00+09:00",
+          "dateModified": "2026-02-15T14:30:00+09:00",
+          "author": {
+            "@type": "Organization",
+            "name": "금융보험정책연구분석팀",
+            "url": "https://cancer.reliabledone.com"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "보험정책연구소",
+            "url": "https://cancer.reliabledone.com"
+          },
+          "mainEntityOfPage": "https://cancer.reliabledone.com/guide"
+        },
+        {
+          "@type": "FinancialProduct",
+          "@id": "https://cancer.reliabledone.com/guide#product",
+          "name": "비갱신형 다이렉트 암보험 표준설계형",
+          "category": "Health Insurance / Cancer Insurance",
+          "description": "일반암 진단비, 유사암 진단비, 표적항암약물치료비, 중입자치료 및 항암방사선약물치료비를 통합 보장하는 비갱신형 암보험 상품",
+          "provider": {
+            "@type": "Organization",
+            "name": "국내 주요 손해보험 및 생명보험 종합비교"
+          },
+          "feesAndCommissionsSpecification": "무해지환급형 가입 시 표준형 대비 약 20% 내외 보험료 절감"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://cancer.reliabledone.com/guide#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "암보험 가입 시 갱신형과 비갱신형 중 어떤 방식이 더 유리한가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "20대, 30대, 40대 등 경제 활동 기간이 긴 연령대는 납입 기간 동안 보험료가 오르지 않고 만기까지 보장이 유지되는 비갱신형(무해지환급형)이 총 납입 비용 측면에서 압도적으로 유리합니다. 반면 60대 이상 고령자나 유병자의 경우 초기 납입료 부담을 낮추기 위해 10년~20년 주기 갱신형을 전략적으로 활용하는 것이 적합합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "유사암과 소액암의 보장 한도는 왜 일반암보다 적게 책정되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "갑상선암, 기타피부암, 경계성종양, 제자리암 등 유사암은 발병 빈도가 높고 초기 완치율이 높아 금융감독원 가이드라인에 따라 일반암 진단비의 최대 20% 수준으로 지급 한도가 제한되어 있습니다. 따라서 일반암 진단비 가입 금액을 충분히 확보하는 것이 유사암 보장 금액을 높이는 핵심 방법입니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "표적항암약물치료비와 중입자치료 특약은 필수적으로 추가해야 하나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "2026년 기준 3세대 면역항암제와 중입자가속기 치료 등 최신 비급여 항암 치료의 비용이 수천만 원에 달하므로 실손보험의 보장 한도를 초과하는 경우가 많습니다. 비갱신 기본 진단비와 함께 5년 또는 10년 갱신형 표적항암 및 첨단 방사선치료 특약을 병행 구성하는 것이 치료비 공백을 메우는 가장 합리적인 방법입니다."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "HowTo",
+          "@id": "https://cancer.reliabledone.com/guide#howto",
+          "name": "다이렉트 암보험 최저가 비교 및 맞춤 설계 5단계",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "name": "연령별 보장 형태 선택",
+              "text": "가입자의 나이대에 맞추어 20~50대는 비갱신형 무해지환급형을, 60대 이상은 갱신형 또는 유병자 간편심사형을 선택합니다."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "일반암 및 유사암 진단비 규모 설정",
+              "text": "연간 연봉 수준 또는 최소 3천만 원에서 5천만 원 상당의 일반암 진단비를 설정하여 유사암 한도를 최대로 확보합니다."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "신의료기술 비급여 특약 선별 추가",
+              "text": "표적항암약물허가치료, 항암방사선약물치료, 카티(CAR-T) 및 중입자치료 특약을 합리적인 보험료 한도 내에서 구성합니다."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "다이렉트 견적 다자간 비교",
+              "text": "중간 유통 수수료가 없는 다이렉트 채널을 통해 최소 3개에서 5개 이상의 주요 보험사 견적을 산출합니다."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "고지의무 이행 및 계약 체결",
+              "text": "최근 5년 이내의 병력 및 진료 기록을 투명하게 고지하고 90일 면책기간과 감액기간을 확인한 뒤 최종 청약을 진행합니다."
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://cancer.reliabledone.com/guide#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "홈",
+              "item": "https://cancer.reliabledone.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "보장성보험 가이드",
+              "item": "https://cancer.reliabledone.com/guide"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "암보험 추천 종합비교",
+              "item": "https://cancer.reliabledone.com/guide"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-900: #0f172a;
+            --primary-800: #1e293b;
+            --primary-700: #334155;
+            --primary-600: #2563eb;
+            --primary-500: #3b82f6;
+            --primary-100: #dbeafe;
+            --primary-50: #eff6ff;
+            
+            --teal-800: #115e59;
+            --teal-600: #0d9488;
+            --teal-500: #14b8a6;
+            --teal-50: #f0fdfa;
+
+            --indigo-700: #4338ca;
+            --indigo-600: #4f46e5;
+            --indigo-50: #eef2ff;
+
+            --slate-900: #0f172a;
+            --slate-800: #1e293b;
+            --slate-700: #334155;
+            --slate-600: #475569;
+            --slate-500: #64748b;
+            --slate-400: #94a3b8;
+            --slate-300: #cbd5e1;
+            --slate-200: #e2e8f0;
+            --slate-100: #f1f5f9;
+            --slate-50: #f8fafc;
+            
+            --surface-white: #ffffff;
+            --danger-600: #dc2626;
+            --danger-50: #fef2f2;
+            --success-600: #059669;
+            --success-50: #ecfdf5;
+
+            --font-main: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.03);
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: #f6f8fb;
+            color: var(--slate-800);
+            line-height: 1.8;
+            font-size: 16px;
+            letter-spacing: -0.02em;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--primary-600);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--primary-700);
+            text-decoration: underline;
+        }
+
+        .header-bar {
+            background-color: var(--surface-white);
+            border-bottom: 1px solid var(--slate-200);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--primary-600);
+            letter-spacing: -0.03em;
+        }
+
+        .logo span {
+            color: var(--slate-900);
+            font-weight: 700;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .nav-links a {
+            color: var(--slate-700);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-600);
+            text-decoration: none;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #0d9488 100%);
+            color: var(--surface-white);
+            padding: 64px 24px 72px;
+            text-align: center;
+        }
+
+        .hero-container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .badge-pill {
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.18);
+            backdrop-filter: blur(8px);
+            color: #ffffff;
+            font-size: 0.875rem;
+            font-weight: 700;
+            padding: 6px 18px;
+            border-radius: 9999px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1.35;
+            margin-bottom: 20px;
+            letter-spacing: -0.03em;
+            color: #ffffff;
+        }
+
+        .hero-desc {
+            font-size: 1.125rem;
+            color: #e0e7ff;
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 0 auto 32px;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(6px);
+            padding: 16px;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 0.825rem;
+            color: #c7d2fe;
+            font-weight: 500;
+        }
+
+        .main-container {
+            max-width: 1280px;
+            margin: -36px auto 60px;
+            padding: 0 24px;
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 32px;
+            align-items: start;
+        }
+
+        .sidebar {
+            position: sticky;
+            top: 88px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .sidebar-card {
+            background: var(--surface-white);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            border: 1px solid var(--slate-200);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .sidebar-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--slate-900);
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--slate-100);
+        }
+
+        .toc-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 0.925rem;
+        }
+
+        .toc-list a {
+            color: var(--slate-600);
+            display: block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .toc-list a:hover {
+            background-color: var(--primary-50);
+            color: var(--primary-600);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .calc-box {
+            background: linear-gradient(180deg, #ffffff 0%, var(--primary-50) 100%);
+            border: 1px solid var(--primary-100);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .calc-box h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--slate-900);
+            margin-bottom: 8px;
+        }
+
+        .calc-box p {
+            font-size: 0.85rem;
+            color: var(--slate-600);
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .form-group {
+            margin-bottom: 14px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.825rem;
+            font-weight: 600;
+            color: var(--slate-700);
+            margin-bottom: 6px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px 12px;
+            font-size: 0.9rem;
+            border: 1px solid var(--slate-300);
+            border-radius: var(--radius-md);
+            background-color: var(--surface-white);
+            color: var(--slate-800);
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-500);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+
+        .btn-calc {
+            width: 100%;
+            background-color: var(--primary-600);
+            color: #ffffff;
+            border: none;
+            padding: 12px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        .btn-calc:hover {
+            background-color: var(--primary-700);
+        }
+
+        .btn-calc:active {
+            transform: scale(0.99);
+        }
+
+        .calc-result-panel {
+            margin-top: 16px;
+            padding: 14px;
+            background-color: var(--surface-white);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--slate-200);
+            display: none;
+        }
+
+        .content-area {
+            background-color: var(--surface-white);
+            border-radius: var(--radius-xl);
+            padding: 48px;
+            border: 1px solid var(--slate-200);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 0.85rem;
+            color: var(--slate-500);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid var(--slate-100);
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--slate-900);
+            margin: 48px 0 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--slate-100);
+            letter-spacing: -0.025em;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--slate-800);
+            margin: 32px 0 14px;
+            letter-spacing: -0.02em;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--slate-700);
+            margin: 24px 0 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--slate-700);
+            font-size: 1.025rem;
+            line-height: 1.85;
+            text-align: justify;
+        }
+
+        strong {
+            color: var(--slate-900);
+            font-weight: 700;
+        }
+
+        .highlight-box {
+            background-color: var(--primary-50);
+            border-left: 4px solid var(--primary-600);
+            padding: 20px 24px;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 28px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: var(--slate-800);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .tip-box {
+            background-color: var(--teal-50);
+            border-left: 4px solid var(--teal-600);
+            padding: 20px 24px;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 28px 0;
+        }
+
+        .tip-box p {
+            margin-bottom: 0;
+            color: var(--teal-800);
+            font-size: 0.975rem;
+        }
+
+        .data-table-wrap {
+            overflow-x: auto;
+            margin: 32px 0;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--slate-200);
+            box-shadow: var(--shadow-sm);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+            background-color: var(--surface-white);
+        }
+
+        th {
+            background-color: var(--slate-100);
+            color: var(--slate-800);
+            font-weight: 700;
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--slate-200);
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--slate-100);
+            color: var(--slate-700);
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #fafbfc;
+        }
+
+        .badge-custom {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+
+        .badge-blue {
+            background-color: var(--primary-100);
+            color: var(--primary-700);
+        }
+
+        .badge-teal {
+            background-color: #ccfbf1;
+            color: var(--teal-800);
+        }
+
+        .badge-gray {
+            background-color: var(--slate-200);
+            color: var(--slate-700);
+        }
+
+        .chart-container {
+            background-color: #f8fafc;
+            border: 1px solid var(--slate-200);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin: 32px 0;
+            text-align: center;
+        }
+
+        .chart-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--slate-800);
+            margin-bottom: 18px;
+        }
+
+        .bar-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            max-width: 680px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .bar-row {
+            display: grid;
+            grid-template-columns: 140px 1fr 100px;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.875rem;
+        }
+
+        .bar-label {
+            font-weight: 600;
+            color: var(--slate-700);
+        }
+
+        .bar-track {
+            background-color: var(--slate-200);
+            height: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 1s ease-in-out;
+        }
+
+        .bar-fill-20 { width: 32%; background: linear-gradient(90deg, #60a5fa, #3b82f6); }
+        .bar-fill-30 { width: 48%; background: linear-gradient(90deg, #38bdf8, #0ea5e9); }
+        .bar-fill-40 { width: 68%; background: linear-gradient(90deg, #2dd4bf, #0d9488); }
+        .bar-fill-50 { width: 88%; background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+        .bar-fill-60 { width: 100%; background: linear-gradient(90deg, #f87171, #ef4444); }
+
+        .bar-val {
+            font-weight: 700;
+            color: var(--slate-900);
+            text-align: right;
+        }
+
+        .grid-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 28px 0;
+        }
+
+        .card-item {
+            background-color: var(--surface-white);
+            border: 1px solid var(--slate-200);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-200);
+        }
+
+        .card-item h4 {
+            font-size: 1.15rem;
+            color: var(--slate-900);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .card-item p {
+            font-size: 0.925rem;
+            color: var(--slate-600);
+            margin-bottom: 0;
+            line-height: 1.65;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--slate-200);
+            padding: 20px 0;
+        }
+
+        .faq-item:first-of-type {
+            border-top: 1px solid var(--slate-200);
+        }
+
+        .faq-question {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--slate-900);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .faq-answer {
+            margin-top: 14px;
+            color: var(--slate-600);
+            font-size: 0.975rem;
+            line-height: 1.8;
+        }
+
+        .interactive-tool {
+            background-color: #f8fafc;
+            border: 1px solid var(--primary-100);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            margin: 36px 0;
+        }
+
+        .interactive-tool h3 {
+            margin-top: 0;
+            font-size: 1.3rem;
+            color: var(--slate-900);
+        }
+
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .tool-result {
+            margin-top: 24px;
+            padding: 20px;
+            background-color: var(--surface-white);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--slate-200);
+            text-align: center;
+        }
+
+        .tool-result-price {
+            font-size: 1.85rem;
+            font-weight: 800;
+            color: var(--primary-600);
+            margin: 8px 0;
+        }
+
+        .external-sources {
+            background-color: var(--slate-50);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--slate-200);
+            padding: 24px;
+            margin-top: 48px;
+        }
+
+        .external-sources h3 {
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 14px;
+            color: var(--slate-900);
+        }
+
+        .external-sources ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .external-sources li {
+            font-size: 0.9rem;
+        }
+
+        .external-sources a {
+            color: var(--slate-700);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .external-sources a:hover {
+            color: var(--primary-600);
+        }
+
+        footer {
+            background-color: var(--slate-900);
+            color: var(--slate-400);
+            padding: 48px 24px;
+            font-size: 0.875rem;
+            line-height: 1.7;
+            margin-top: 80px;
+        }
+
+        .footer-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        @media (max-width: 1024px) {
+            .main-container {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                position: static;
+            }
+            .content-area {
+                padding: 32px 24px;
+            }
+            .grid-cards {
+                grid-template-columns: 1fr;
+            }
+            .tool-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero-title {
+                font-size: 1.85rem;
+            }
+            .hero-stats {
+                grid-template-columns: 1fr;
+            }
+            .bar-row {
+                grid-template-columns: 100px 1fr 70px;
+                font-size: 0.775rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-bar">
+        <div class="header-inner">
+            <div class="logo">암보험<span>인사이트</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#overview">시장동향</a></li>
+                    <li><a href="#age_guide">연령별가이드</a></li>
+                    <li><a href="#coverage_struct">보장구조분석</a></li>
+                    <li><a href="#renew_vs_nonrenew">갱신/비갱신</a></li>
+                    <li><a href="#tech_therapy">신치료특약</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="badge-pill">2026년 최신 보험 요율 및 개정 약관 완벽 반영</div>
+            <h1 class="hero-title">암보험 추천 및 연령별 보험료 정밀 비교 분석</h1>
+            <p class="hero-desc">사회초년생 20대부터 30대 직장인, 40대 가장, 50대 은퇴준비 세대 및 60대 고령자까지. 비갱신형 무해지환급형 설계 방식과 표적항암, 중입자치료 특약의 가격 및 견적을 정밀 계산하여 최적의 선택지를 제시합니다.</p>
+            
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-value">비갱신형</div>
+                    <div class="stat-label">납입기간 동안 보험료 인상 제로</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">최대 20%</div>
+                    <div class="stat-label">무해지환급형 월납입료 절감효과</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">5천만원+</div>
+                    <div class="stat-label">2026년 권장 일반암 진단금 기준</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="main-container">
+        
+        <!-- Sidebar Navigation & Quick Calculator -->
+        <aside class="sidebar">
+            <div class="sidebar-card">
+                <h3 class="sidebar-title">핵심 분석 목차</h3>
+                <ul class="toc-list">
+                    <li><a href="#overview">1. 2026년 암보험 시장 환경과 패러다임</a></li>
+                    <li><a href="#age_guide">2. 연령대별 암보험 추천 및 표준 가이드</a></li>
+                    <li><a href="#rate_chart">3. 연령별 평균 월 납입 보험료 비교표</a></li>
+                    <li><a href="#coverage_struct">4. 일반암, 유사암, 소액암 진단비 구조</a></li>
+                    <li><a href="#renew_vs_nonrenew">5. 갱신형 vs 비갱신형 경제성 정밀 비교</a></li>
+                    <li><a href="#tech_therapy">6. 표적항암, 중입자, 카티 치료 특약</a></li>
+                    <li><a href="#direct_comparison">7. 다이렉트 가입 성지 및 플랫폼 비교</a></li>
+                    <li><a href="#regulation_2026">8. 2026년 보험 요율 제도 개정 전망</a></li>
+                    <li><a href="#underwriting_check">9. 계약 전 알릴의무 및 고지사항 유의점</a></li>
+                    <li><a href="#faq">10. 자주 묻는 질문 FAQ 10문 10답</a></li>
+                </ul>
+            </div>
+
+            <div class="calc-box">
+                <h3>실시간 예상 보험료 계산기</h3>
+                <p>성별, 연령대, 진단금을 설정하여 다이렉트 최저가 예상 금액을 즉시 확인해보세요.</p>
+                <form id="quickCalcForm" onsubmit="calculateQuickQuote(event)">
+                    <div class="form-group">
+                        <label for="calcAge">가입 연령</label>
+                        <select id="calcAge" class="form-control" required>
+                            <option value="20">20세 ~ 29세 (20대 청년층)</option>
+                            <option value="30" selected>30세 ~ 39세 (30대 사회활동층)</option>
+                            <option value="40">40세 ~ 49세 (40대 핵심가장층)</option>
+                            <option value="50">50세 ~ 59세 (50대 중장년층)</option>
+                            <option value="60">60세 ~ 69세 (60대 노후대비층)</option>
+                            <option value="70">70세 이상 (고령자/유병자)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="calcGender">성별</label>
+                        <select id="calcGender" class="form-control" required>
+                            <option value="male">남성</option>
+                            <option value="female">여성</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="calcCoverage">일반암 진단비 설정</label>
+                        <select id="calcCoverage" class="form-control" required>
+                            <option value="3000">3,000만 원</option>
+                            <option value="5000" selected>5,000만 원 (권장)</option>
+                            <option value="7000">7,000만 원</option>
+                            <option value="10000">1억 원</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="calcType">납입 및 보장 유형</label>
+                        <select id="calcType" class="form-control" required>
+                            <option value="non_renew" selected>비갱신형 (20년납 90세만기)</option>
+                            <option value="renew">갱신형 (20년 갱신)</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-calc">예상 견적 즉시 계산</button>
+                </form>
+
+                <div id="quickResult" class="calc-result-panel">
+                    <div style="font-size: 0.85rem; color: var(--slate-600);">예상 월 납입 보험료</div>
+                    <div id="quickResultPrice" style="font-size: 1.4rem; font-weight: 800; color: var(--primary-600); margin: 6px 0;">0원</div>
+                    <div id="quickResultDetail" style="font-size: 0.775rem; color: var(--slate-500); line-height: 1.4;">다이렉트 무해지환급형 기준 추정치입니다.</div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Informational Content Area -->
+        <main class="content-area">
+            <div class="article-meta">
+                <span>작성 및 감수: 금융보험정책분석실</span>
+                <span>기준 연도: 2026년 최신 개정판</span>
+                <span>문서 형식: 종합 분석 리포트</span>
+            </div>
+
+            <section id="overview">
+                <h2>1. 2026년 암보험 시장 환경과 패러다임의 대전환</h2>
+                <p>의학 기술의 눈부신 발전으로 과거 불치병으로 여겨지던 암은 이제 만성 관리 질환이자 표적 치료가 가능한 영역으로 진화했습니다. 2026년 대한민국 암 치료 현장에서는 3세대 면역항암제, 로봇 수술, 양성자 및 중입자가속기 치료 등 초정밀 의료 기술이 폭넓게 적용되고 있습니다. 그러나 이러한 첨단 의료 기술의 대다수는 국민건강보험의 급여 적용을 받지 못하는 고액 비급여 항목에 집중되어 있어, <strong>암보험추천</strong>을 고려할 때 단순한 입원비나 수술비 중심의 구형 담보 구성으로는 실질적인 경제적 방어가 불가능한 상황입니다.</p>
+
+                <p>실제 암 환자가 직면하는 가장 큰 고통은 단순 병원비 지출을 넘어 치료 기간 동안 발생하는 소득 상실, 간병비, 생활비, 그리고 회당 수천만 원에 육박하는 비급여 신약 및 첨단 방사선 치료 비용입니다. 4세대 실손의료보험의 비급여 보장 한도 축소와 높은 자기부담금 구조를 감안할 때, 충분한 <strong>암진단금</strong> 확보와 비급여 첨단 치료비 특약의 균형 있는 구성은 가계의 생존을 결정짓는 핵심 재무 방파제 역할을 수행합니다.</p>
+
+                <div class="highlight-box">
+                    <p><strong>핵심 분석 요약:</strong> 2026년형 올바른 암보험 설계의 본질은 첫째, 소득 단절을 방어하는 고액 <strong>비갱신형 일반암 진단비</strong>를 주축으로 삼고, 둘째, <strong>유사암 진단비 한도</strong>를 법적 상한선(20%)까지 최대치로 설정하며, 셋째, <strong>표적항암약물허가치료비</strong>와 <strong>중입자치료 특약</strong> 등 최신 비급여 신의료기술 담보를 합리적인 비용으로 결합하는 것입니다.</p>
+                </div>
+            </section>
+
+            <section id="age_guide">
+                <h2>2. 연령대별 암보험 추천 및 표준 가이드라인</h2>
+                <p>암보험은 가입자의 생애주기와 연령대별 위험률에 따라 최적의 설계 공식이 완전히 달라집니다. 20대 사회초년생부터 70대 고령 유병자에 이르기까지, 각 연령대에 부합하는 맞춤형 가입 전략과 주의사항을 상세히 분석합니다.</p>
+
+                <h3>0세 어린이 및 10대 청소년 암보험</h3>
+                <p>어린이와 10대 청소년기는 세포 분열이 활발하여 소아백혈병, 뇌종양, 골육종 등 고액암의 발생 위험이 상대적으로 높습니다. 이 시기에는 성인 대비 매우 저렴한 보험료로 1억 원 이상의 고액 진단비를 100세 만기 비갱신형으로 확보할 수 있는 골든타임입니다. 납입 기간을 20년으로 설정할 경우 30대 이전에 모든 보험료 납입을 완료하여 평생 동안의 암 보장 자산을 완성할 수 있는 혜택이 주어집니다.</p>
+
+                <h3>20대 암보험: 20세, 25세, 20대 초반 및 20대 후반 사회초년생</h3>
+                <p><strong>20대 암보험</strong>은 성인 질환 위험률이 본격적으로 반영되기 전이므로 최저가 요율을 적용받을 수 있는 가장 유리한 구간입니다. <strong>20세 암보험</strong>이나 <strong>25세 암보험</strong> 가입 시에는 성인 전용 상품보다는 과거 어린이보험의 장점을 계승한 청년 전용(어른이보험) 다이렉트 플랜을 선택하는 것이 유리합니다. <strong>20대초반암보험</strong> 및 <strong>20대후반암보험</strong> 가입자들은 무해지환급형 20년납 90세만기 구조로 일반암 5천만 원, 유사암 1천만 원을 설정해도 월 3만 원대 중후반의 매우 경제적인 가격으로 평생 보장을 확보할 수 있습니다.</p>
+
+                <h3>30대 암보험: 30세, 35세, 30대 초반 및 30대 후반 직장인</h3>
+                <p><strong>30대 암보험</strong>은 결혼, 출산, 주택 마련 등 인생의 주요 대소사가 집중되어 가계 지출이 증가하는 시기입니다. <strong>30세 암보험</strong>과 <strong>35세 암보험</strong>을 설계할 때는 여성의 경우 갑상선암 및 유방암, 남성의 경우 위암, 대장암, 간암의 초기 발병률이 가파르게 상승하기 시작하므로 진단비의 공백이 없어야 합니다. <strong>30대 직장인 암보험</strong>은 일반암 진단비를 연봉의 1배에서 1.5배 수준(최소 5천만 원 이상)으로 설정하고, 표적항암약물치료비 5천만 원 특약을 추가하여 가성비 높은 비갱신형 다이렉트 상품으로 구성하는 것을 권장합니다.</p>
+
+                <h3>40대 암보험: 40세, 45세, 40대 초반 및 40대 후반 중년 가장</h3>
+                <p><strong>40대 암보험</strong>은 암 발생 곡선이 급격한 변곡점을 맞이하는 시점입니다. <strong>40세 암보험</strong>부터는 암 발병 위험률이 30대 대비 2배 이상 증가하며, <strong>45세 암보험</strong>을 넘어서면 고혈압, 당뇨, 고지혈증 등 만성 대사 질환으로 인해 표준체 가입 심사가 까다로워질 수 있습니다. <strong>40대 가장 암보험</strong>의 핵심은 소득 상실 시 가족의 생활 안정을 보장할 수 있는 최소 5천만 원~7천만 원 규모의 진단비와 함께 중입자치료 및 양성자치료 등 신의료기술 방사선 특약을 필히 보강하는 것입니다.</p>
+
+                <h3>50대 암보험: 50세, 55세, 50대 초반 및 50대 후반 은퇴준비 세대</h3>
+                <p><strong>50대 암보험</strong>은 은퇴를 앞두고 고정 수입이 감소하는 반면, 위암, 대장암, 폐암, 간암 등 주요 중증 암의 발병률이 정점에 도달하는 구간입니다. <strong>50세 암보험</strong> 및 <strong>55세 암보험</strong> 설계 시에는 20년납 비갱신형의 월 납입 금액이 10만 원을 초과할 수 있으므로, 납입 여력에 맞춰 납입 기간을 25년납이나 30년납으로 늘려 월 부담을 분산하거나, 기존에 보유한 실손보험과의 보장 중복을 점검하여 불필요한 특약을 과감히 제거해야 합니다. 기저 질환이 있는 경우 3.5.5 간편심사 유병자 플랜을 적극 활용할 수 있습니다.</p>
+
+                <h3>60대 및 70대 실버 암보험: 60세, 65세 유병자 및 고령자 노후대비</h3>
+                <p><strong>60대 암보험</strong>과 <strong>70대 고령자 암보험</strong>은 비갱신형 선택 시 월 보험료가 과도하게 높아져 가계 재정에 큰 부담이 될 수 있습니다. 따라서 <strong>60세 암보험</strong>, <strong>65세 유병자 암보험</strong> 및 <strong>70세 실버 암보험</strong> 가입 시에는 10년 또는 20년 주기로 갱신되는 <strong>갱신형 암보험</strong>을 전략적으로 선택하여 80세 전후의 최고 위험기를 집중 방어하는 것이 실용적입니다. 최근에는 계약 전 알릴의무를 3대 항목으로 간소화한 유병자 간편가입 제도가 보편화되어 투약 중인 만성질환자도 수월하게 보장을 마련할 수 있습니다.</p>
+            </section>
+
+            <section id="rate_chart">
+                <h2>3. 연령별 평균 월 납입 보험료 비교표 및 시각 분석</h2>
+                <p>국내 주요 손해보험 5개사의 다이렉트 비갱신형(20년납 90세만기, 무해지환급형, 일반암 5,000만 원, 유사암 1,000만 원, 표적항암 5,000만 원 기준) 표준 요율 데이터를 기반으로 산출한 연령별 평균 예상 가격표입니다.</p>
+
+                <div class="data-table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>연령 구간</th>
+                                <th>남성 평균 요금</th>
+                                <th>여성 평균 요금</th>
+                                <th>핵심 추천 설계 유형</th>
+                                <th>주요 권장 특약 구성</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>20세 (20대 초반)</strong></td>
+                                <td>31,200원</td>
+                                <td>28,400원</td>
+                                <td><span class="badge-custom badge-blue">비갱신 무해지형</span></td>
+                                <td>일반암 5천 + 유사암 1천 + 통합암</td>
+                            </tr>
+                            <tr>
+                                <td><strong>25세 (사회초년생)</strong></td>
+                                <td>36,800원</td>
+                                <td>32,900원</td>
+                                <td><span class="badge-custom badge-blue">비갱신 무해지형</span></td>
+                                <td>표적항암 5천 + 항암방사선약물</td>
+                            </tr>
+                            <tr>
+                                <td><strong>30세 (30대 초반)</strong></td>
+                                <td>43,500원</td>
+                                <td>38,700원</td>
+                                <td><span class="badge-custom badge-blue">비갱신 무해지형</span></td>
+                                <td>일반암 5천 + 중입자치료비 특약</td>
+                            </tr>
+                            <tr>
+                                <td><strong>35세 (30대 직장인)</strong></td>
+                                <td>52,100원</td>
+                                <td>45,300원</td>
+                                <td><span class="badge-custom badge-blue">비갱신 무해지형</span></td>
+                                <td>통합암진단비(전이암포함) 보강</td>
+                            </tr>
+                            <tr>
+                                <td><strong>40세 (40대 가장)</strong></td>
+                                <td>68,400원</td>
+                                <td>56,200원</td>
+                                <td><span class="badge-custom badge-teal">비갱신 25년납</span></td>
+                                <td>일반암 5천~7천 + 표적항암 7천</td>
+                            </tr>
+                            <tr>
+                                <td><strong>45세 (40대 후반)</strong></td>
+                                <td>86,900원</td>
+                                <td>69,400원</td>
+                                <td><span class="badge-custom badge-teal">비갱신 25년납</span></td>
+                                <td>카티(CAR-T) 및 로봇수술비 특약</td>
+                            </tr>
+                            <tr>
+                                <td><strong>50세 (50대 초반)</strong></td>
+                                <td>112,000원</td>
+                                <td>85,300원</td>
+                                <td><span class="badge-custom badge-gray">비갱신/혼합형</span></td>
+                                <td>일반암 3천~5천 + 갱신형 표적치료</td>
+                            </tr>
+                            <tr>
+                                <td><strong>55세 (은퇴준비)</strong></td>
+                                <td>145,000원</td>
+                                <td>108,000원</td>
+                                <td><span class="badge-custom badge-gray">간편심사 유병자</span></td>
+                                <td>3대 만성질환 연계 간편고지 플랜</td>
+                            </tr>
+                            <tr>
+                                <td><strong>60세 이상 (실버/노후)</strong></td>
+                                <td>65,000원 (20년갱신)</td>
+                                <td>48,000원 (20년갱신)</td>
+                                <td><span class="badge-custom badge-gray">20년 갱신형</span></td>
+                                <td>고액 진단비 집중 + 치료비 실손보완</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-title">연령대별 남성 기준 월 평균 암보험료 증가 추이 (비갱신 20년납 90세만기 기준)</div>
+                    <div class="bar-chart">
+                        <div class="bar-row">
+                            <span class="bar-label">20대 (25세)</span>
+                            <div class="bar-track"><div class="bar-fill bar-fill-20"></div></div>
+                            <span class="bar-val">36,800원</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">30대 (35세)</span>
+                            <div class="bar-track"><div class="bar-fill bar-fill-30"></div></div>
+                            <span class="bar-val">52,100원</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">40대 (45세)</span>
+                            <div class="bar-track"><div class="bar-fill bar-fill-40"></div></div>
+                            <span class="bar-val">86,900원</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">50대 (55세)</span>
+                            <div class="bar-track"><div class="bar-fill bar-fill-50"></div></div>
+                            <span class="bar-val">145,000원</span>
+                        </div>
+                        <div class="bar-row">
+                            <span class="bar-label">60대 (60세 비갱신)</span>
+                            <div class="bar-track"><div class="bar-fill bar-fill-60"></div></div>
+                            <span class="bar-val">198,000원</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="coverage_struct">
+                <h2>4. 일반암, 유사암, 소액암 진단비 구조와 통합암 설계 전략</h2>
+                <p>암보험의 약관 체계에서 가장 빈번하게 분쟁이 발생하는 영역은 암의 분류 기준입니다. 보험사마다 약관상 명시된 일반암의 범위와 소액암의 분류가 상이하므로 가입 전 약관의 세부 분류표를 정확히 검토해야 합니다.</p>
+
+                <h3>일반암과 유사암의 법적 분류 차이</h3>
+                <p>통상적으로 <strong>일반암</strong>은 위암, 폐암, 간암, 대장암, 췌장암 등 중증 위험도가 높은 모든 암을 포괄합니다. 반면 <strong>유사암</strong>은 다음의 4대 질환으로 엄격히 제한됩니다:</p>
+                <ul style="margin-left: 20px; margin-bottom: 20px; color: var(--slate-700); line-height: 1.8;">
+                    <li><strong>갑상선암 (C73):</strong> 국내 여성 발병률 1위 질환으로 수술 후 완치율이 높음</li>
+                    <li><strong>기타피부암 (C44):</strong> 악성 흑색종을 제외한 피부의 기저세포암 등</li>
+                    <li><strong>경계성종양 (D37~D48):</strong> 양성과 악성의 중간적 성격을 지닌 종양</li>
+                    <li><strong>제자리암 (D00~D09):</strong> 상피내에 국한된 상피내암 (0기 암)</li>
+                </ul>
+
+                <div class="grid-cards">
+                    <div class="card-item">
+                        <h4>과거의 단일 진단비 방식</h4>
+                        <p>최초 1회 암 진단 확정 시 가입 금액을 지급하고 해당 담보가 영구적으로 소멸하는 구조입니다. 이후 재발하거나 타 장기로 전이되었을 때 추가적인 진단비를 수령할 수 없는 구조적 한계가 존재했습니다.</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>2026년 통합암 진단비 방식</h4>
+                        <p>인체 장기를 부위별(위, 폐, 간, 대장, 비뇨기, 생식기 등) 5개~10개 영역으로 세분화하여, 각 장기별로 원발암 및 전이암 발생 시 최대 5회에서 10회까지 각각 독립적으로 진단비를 반복 지급하는 진화된 형태입니다.</p>
+                    </div>
+                </div>
+
+                <h3>소액암의 일반암 포함 여부 확인</h3>
+                <p>과거 일부 생명보험 상품에서는 유방암, 자궁암, 전립선암, 방광암 등 남녀 생식기암을 소액암으로 별도 분류하여 일반암 진단비의 10%~20%만 지급하던 관행이 있었습니다. 현재 손해보험사 다이렉트 채널의 대다수 상품은 생식기암을 일반암과 100% 동일하게 전액 보장하지만, 일부 저가형 상품에서는 여전히 차등 지급 조항이 남아있으므로 반드시 <strong>일반암 100% 전액 지급</strong> 여부를 확인해야 합니다.</p>
+            </section>
+
+            <section id="renew_vs_nonrenew">
+                <h2>5. 갱신형 vs 비갱신형 경제성 정밀 비교</h2>
+                <p>암보험 가입자들이 가장 깊이 고민하는 부분은 <strong>비갱신형</strong>과 <strong>갱신형</strong> 사이의 손익분기점 판단입니다. 각 방식의 메커니즘을 이해하면 자신의 재무 상황에 가장 유리한 형태를 명확히 도출할 수 있습니다.</p>
+
+                <div class="data-table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>비교 항목</th>
+                                <th>비갱신형 (무해지환급형 권장)</th>
+                                <th>갱신형 (10년 / 20년 주기)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>보험료 변동성</strong></td>
+                                <td>가입 시 정해진 금액이 만기까지 동일 유지</td>
+                                <td>연령 증가 및 손해율에 따라 갱신 시마다 인상</td>
+                            </tr>
+                            <tr>
+                                <td><strong>납입 기간</strong></td>
+                                <td>20년 또는 30년 납입 후 평생 보장 (납입 종료)</td>
+                                <td>보장을 받는 전 기간 동안 평생 납입 (전기납)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>초기 보험료 수준</strong></td>
+                                <td>갱신형 대비 상대적으로 높음</td>
+                                <td>초기 가입 시 매우 저렴함</td>
+                            </tr>
+                            <tr>
+                                <td><strong>총 납입 비용 (80세 기준)</strong></td>
+                                <td>총 납입 총액이 사전에 확정되어 경제적임</td>
+                                <td>고령기 급격한 인상으로 총 납입액이 급증함</td>
+                            </tr>
+                            <tr>
+                                <td><strong>최적 추천 대상</strong></td>
+                                <td>20대, 30대, 40대, 50대 사회활동 경제인구</td>
+                                <td>60대 이상 고령자, 유병자, 단기 집중 보장 희망자</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tip-box">
+                    <p><strong>무해지환급형(해약환급금 미지급형)이란?</strong> 보험료 납입 기간 중에 계약을 해지할 경우 해약환급금을 전혀 지급하지 않는 대신, 동일한 보장의 표준형 상품 대비 보험료를 약 15%~25% 영구적으로 할인해 주는 제도입니다. 중도 해지 없이 20년 완납을 유지할 수 있는 가입자에게는 가장 확실한 최저가 가입 방법입니다.</p>
+                </div>
+            </section>
+
+            <section id="tech_therapy">
+                <h2>6. 2026년 첨단 항암 치료 특약 심층 분석</h2>
+                <p>과거의 1세대 화학항암제는 정상 세포까지 파괴하여 극심한 부작용과 구토, 탈모를 유발했습니다. 현대 암 치료의 표준으로 자리 잡은 2세대 표적항암제와 3세대 면역관문억제제, 그리고 중입자가속기 치료는 부작용을 최소화하고 생존율을 획기적으로 개선하였으나, 천문학적인 치료 비용이 발생합니다.</p>
+
+                <h3>필수 점검 첨단 치료 담보 4종</h3>
+                <div class="grid-cards">
+                    <div class="card-item">
+                        <h4>표적항암약물허가치료비</h4>
+                        <p>암세포의 특정 유전자 변이만을 정밀 타격하는 항암제(키트루다, 옵디보, 렉라자 등) 투여 시 보장합니다. 비급여 처방 시 연간 약제비가 5천만 원에서 1억 원을 웃돌기 때문에 5천만 원 이상 가입을 강력히 추천합니다.</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>항암 양성자 및 중입자치료비</h4>
+                        <p>빛의 속도에 가깝게 가속한 탄소 이온을 암세포에만 정밀 조사하는 중입자 치료(일명 꿈의 암 치료기)는 1회 치료 코스당 5,000만 원 상당의 비급여 비용이 소요됩니다. 2026년 신설된 전용 특약으로 철저한 대비가 가능합니다.</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>카티(CAR-T) 세포치료비</h4>
+                        <p>환자의 면역세포를 추출하여 유전자 조작 후 재주입하는 1회성 맞춤 항암치료로, 백혈병 및 림프종 등 혈액암 환자에게 기적적인 완치율을 보입니다. 1회 투여 비용이 수억 원에 달하므로 전용 특약 한도를 점검해야 합니다.</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>특정 다빈치 로봇수술비</h4>
+                        <p>전립선암, 갑상선암, 위암, 대장암 수술 시 절개 부위를 최소화하여 회복 속도를 극대화하는 다빈치 로봇 수술에 대해 회당 1,000만 원 한도의 비급여 수술비를 정액 지원합니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="direct_comparison">
+                <h2>7. 다이렉트 암보험 가입 성지 및 플랫폼 비교 노하우</h2>
+                <p>보험 설계사를 통한 대면 가입 채널은 설계사 수당과 점포 운영비 등 사업비가 부가되어 다이렉트 인터넷 가입 채널 대비 약 15%~20%가량 보험료가 비쌉니다. 동일한 보장 내용이라면 인터넷 다이렉트 전용 공식 플랫폼을 이용하는 것이 가장 현명합니다.</p>
+
+                <p>온라인 커뮤니티(디시인사이드 보험갤러리, 보배드림 금융게시판, 에펨코리아/펨코 재테크 게시판)의 수많은 실가입자 내돈내산 후기에서도 확인되듯, 설계사의 권유에 따른 불필요한 사망 담보나 입원일당 담보 강제 끼워팔기를 피하고, 순수하게 <strong>진단비와 신치료 특약 중심의 무해지 플랜</strong>을 DIY 방식으로 조립하는 것이 최저가 견적을 도출하는 핵심 비결입니다.</p>
+
+                <div class="highlight-box">
+                    <p><strong>인터넷 가입 시 사은품 및 현금지원 혜택의 진실:</strong> 금융소비자보호법 제21조에 의거하여 보험 가입에 따른 특별이익(현금지원, 과도한 상품권, 사은품 제공 등)은 연간 보험료의 10% 또는 3만 원 중 적은 금액을 초과하여 제공될 수 없습니다. 불법 지원금을 미끼로 유혹하는 비공식 좌표나 성지 업체를 주의하고, 합법적인 다이렉트 채널의 첫 달 보험료 캐시백 이벤트나 네이버페이, 카카오페이 포인트 적립 혜택을 이용하는 것이 안전합니다.</p>
+                </div>
+
+                <p>최근에는 토스, 카카오뱅크, 네이버페이 등 핀테크 앱 및 인공지능(AI) 기반 분석 플랫폼(제미나이, 챗지피티 등)을 활용하여 본인이 기존에 가입한 모든 증권을 불러와 중복 보장을 걸러내고 부족한 진단비만 원클릭으로 보강하는 다이렉트 컨설팅이 대세로 자리 잡았습니다.</p>
+            </section>
+
+            <section id="regulation_2026">
+                <h2>8. 2026년 보험 요율 제도 개정 및 금융당국 규제 전망</h2>
+                <p>2026년 보험 시장은 보험개발원의 제10회 경험생명표 전면 적용과 함께 IFRS17 회계기준 정착에 따른 보험사 간 리스크 관리 경쟁이 심화되고 있습니다. 특히 암 관련 요율 산정에서 다음과 같은 주요 변화가 관찰됩니다:</p>
+                <ol style="margin-left: 20px; margin-bottom: 20px; color: var(--slate-700); line-height: 1.8;">
+                    <li><strong>암 조기 발견 증가에 따른 위험률 상향:</strong> 건강검진의 일상화로 20대~40대의 조기 암 발견율이 가파르게 상승함에 따라 청장년층의 암 진단비 예정이율이 조정되어 보험료 인상 압력이 지속되고 있습니다.</li>
+                    <li><strong>유사암 진단비 20% 한도 규제 유지:</strong> 금융감독원의 유사암 과당 경쟁 억제 정책에 따라 일반암 진단비 대비 20% 이내 설정 룰이 확고하게 유지되고 있습니다.</li>
+                    <li><strong>비급여 신약 담보의 갱신 주기 단축 추세:</strong> 표적항암제 등 고액 치료 특약의 경우 신약 출시 속도가 빨라짐에 따라 기존 10년 갱신형에서 3년~5년 단기 갱신형으로 상품 구조가 개편되는 추세입니다.</li>
+                </ol>
+            </section>
+
+            <section id="underwriting_check">
+                <h2>9. 계약 전 알릴의무(고지의무)와 면책 및 감액기간</h2>
+                <p>암보험은 가입 후 즉시 보장이 개시되지 않으며, 상법 및 표준약관에 따른 엄격한 면책 기간과 감액 조항이 존재합니다. 이를 간과할 경우 실제 진단을 받더라도 보험금을 수령하지 못하는 치명적인 불이익을 당할 수 있습니다.</p>
+
+                <h3>암보험 3대 필수 점검 조항</h3>
+                <div class="grid-cards">
+                    <div class="card-item">
+                        <h4>90일 면책기간</h4>
+                        <p>계약일(제1회 보험료 납입일)로부터 90일이 지난 다음 날부터 보장이 개시됩니다. 90일 이내에 암 진단 확정 시 계약은 무효 처리되며 납입한 보험료만 환급됩니다. (단, 유사암은 90일 면책 없이 첫날부터 보장되는 경우가 많음)</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>1년~2년 감액기간</h4>
+                        <p>가입 후 1년 또는 2년 이내에 일반암 진단 확정 시 가입 금액의 50%만 감액 지급하는 조항입니다. 최근 일부 손해보험사 상품은 감액기간 없이 90일 경과 즉시 100%를 지급하는 감액기간 미적용 플랜을 제공하고 있습니다.</p>
+                    </div>
+                </div>
+
+                <h3>고지의무(계약 전 알릴의무) 핵심 체크리스트</h3>
+                <p>청약서 질문표의 다음 3대 기본 항목을 사실대로 투명하게 고지해야 향후 고지의무 위반으로 인한 강제 해지 및 보험금 지급 거절을 예방할 수 있습니다:</p>
+                <ul style="margin-left: 20px; margin-bottom: 20px; color: var(--slate-700); line-height: 1.8;">
+                    <li>최근 3개월 이내 의사로부터 진찰 또는 검사를 통한 질병확정의단, 의심소견, 치료, 입원, 수술, 투약 여부</li>
+                    <li>최근 1년 이내 의사로부터 진찰 또는 검사를 통한 추가검사(재검사)를 받은 사실 여부</li>
+                    <li>최근 5년 이내 입원, 수술, 계속하여 7일 이상 치료, 계속하여 30일 이상 투약 사실 여부</li>
+                    <li>최근 5년 이내 암, 백혈병, 고혈압, 당뇨, 협심증, 심근경색 등 중대 11대 질병으로 인한 진단 및 치료 사실 여부</li>
+                </ul>
+            </section>
+
+            <section id="interactive_calc">
+                <h2>10. 맞춤형 암보험 견적 정밀 시뮬레이터</h2>
+                <div class="interactive-tool">
+                    <h3>연령대 및 보장 조건별 상세 견적 시뮬레이션</h3>
+                    <p>원하는 보장 조건과 본인의 연령대를 선택하면 2026년 기준 다이렉트 표준 납입료를 정밀 계산해 드립니다.</p>
+                    <div class="tool-grid">
+                        <div>
+                            <label style="font-size: 0.85rem; font-weight: 700; color: var(--slate-700);">가입 연령대</label>
+                            <select id="simAge" class="form-control" onchange="runDetailedSimulation()">
+                                <option value="20">20대 (사회초년생 플랜)</option>
+                                <option value="30" selected>30대 (표준 직장인 플랜)</option>
+                                <option value="40">40대 (핵심 가장 종합 플랜)</option>
+                                <option value="50">50대 (중장년 집중 플랜)</option>
+                                <option value="60">60대 (실버 노후 플랜)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="font-size: 0.85rem; font-weight: 700; color: var(--slate-700);">성별 선택</label>
+                            <select id="simGender" class="form-control" onchange="runDetailedSimulation()">
+                                <option value="male" selected>남성</option>
+                                <option value="female">여성</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="font-size: 0.85rem; font-weight: 700; color: var(--slate-700);">특약 구성 수준</label>
+                            <select id="simPlan" class="form-control" onchange="runDetailedSimulation()">
+                                <option value="basic">기본형 (진단비 3,000만 원)</option>
+                                <option value="standard" selected>표준형 (진단비 5,000만 + 표적 5,000만)</option>
+                                <option value="premium">프리미엄 (진단비 1억 + 첨단치료 종합)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="tool-result">
+                        <div style="font-size: 0.9rem; color: var(--slate-600);">예상 최저가 다이렉트 월 납입 보험료</div>
+                        <div id="simPriceOutput" class="tool-result-price">48,700원</div>
+                        <div id="simDetailOutput" style="font-size: 0.825rem; color: var(--slate-500);">20년납 90세만기 비갱신 무해지환급형 기준 추정치</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq">
+                <h2>11. 암보험 관련 자주 묻는 질문 FAQ 10문 10답</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q1. 실손의료보험이 이미 있는데 암보험을 별도로 추가해야 하나요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 실손의료보험은 실제 발생한 병원비의 급여/비급여 본인부담금을 사후 실손 보상하는 구조입니다. 하지만 암 치료 시 발생하는 수천만 원 상당의 비급여 표적항암제는 실손보험의 비급여 한도(통상 연간 5천만 원 또는 통원 회당 한도)를 초과하기 쉬우며, 치료 기간 동안의 생활비와 소득 상실은 실손보험으로 보상되지 않습니다. 따라서 진단 즉시 정액으로 목돈이 지급되는 암 진단비와 표적항암 특약으로 소득 공백과 비급여 초과 치료비를 방어해야 합니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q2. 만기환급형과 순수보장형(무해지형) 중 어떤 선택이 유리한가요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 만기환급형은 만기 시점에 낸 돈을 돌려받기 위해 매월 훨씬 높은 적립보험료를 추가로 납입해야 합니다. 하지만 90세나 100세 만기 시점의 화폐 가치는 물가 상승률로 인해 현저히 하락합니다. 따라서 적립보험료 없이 순수하게 보장에만 집중하여 월 납입료를 최소화한 순수보장형(무해지환급형)을 선택하고, 절약된 차액을 저축이나 투자로 운용하는 것이 경제학적으로 훨씬 유리합니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q3. 유사암 진단비 1,000만 원은 충분한 수준인가요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 금융감독원 규정상 유사암 진단비는 일반암 진단비 가입 금액의 최대 20%까지만 설정할 수 있습니다. 즉, 유사암 진단비를 2,000만 원으로 확보하려면 일반암 진단비를 1억 원으로 가입해야 합니다. 20대~40대 여성의 경우 갑상선암 발병률이 매우 높으므로, 일반암 가입 금액을 최소 5,000만 원 이상 설정하여 유사암 한도를 법적 최고치인 1,000만 원 이상 확보하는 것이 표준 권장치입니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q4. 2026년 기준 암 진단비는 얼마로 설정하는 것이 가장 이상적인가요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 통상 암 발병 시 최소 1년간 정상적인 경제 활동이 중단되는 점을 고려하여 가입자 본인 연간 세후 소득(연봉)의 1배에서 1.5배 수준을 권장합니다. 평균적으로 20대는 3,000만~5,000만 원, 30대~40대 직장인 및 가장은 5,000만~7,000만 원, 여유가 있다면 1억 원을 기본 축으로 구성하는 것이 소득 단절 리스크를 완전히 차단하는 방법입니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q5. 전이암과 재발암은 일반 암보험에서 어떻게 보장되나요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 전통적인 암보험은 원발암(최초 발생 부위)을 기준으로 1회만 진단비를 지급하고 소멸하므로, 원발 부위에서 다른 장기로 전이된 이차암(C77~C80 전이암)에 대해서는 추가 보장이 불가했습니다. 그러나 최근 출시된 2026년형 통합암진단비 상품은 전이암 특약을 별도 탑재하여 림프절 전이나 원격 전이 시에도 최초 1회에 그치지 않고 추가 진단금을 지급하도록 보장을 강화했습니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q6. 고혈압이나 당뇨 약을 복용 중인데 일반 암보험 가입이 가능한가요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 네, 가능합니다. 암보험은 혈관 질환이나 뇌졸중과 달리 혈압약이나 당뇨약 복용 등 만성질환에 대한 인수 기준이 상대적으로 유연합니다. 합병증이 없고 정기적으로 수치를 관리 중이라면 할증 없이 표준체로 일반 암보험에 가입할 수 있는 회사가 다수 존재합니다. 만약 거절되더라도 3개월 이내 의사 소견, 2년 이내 입원/수술, 5년 이내 암 진단 이력만 심사하는 간편심사(유병자) 암보험으로 100% 동일한 보장을 가입할 수 있습니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q7. 암 수술비 특약과 암 입원일당 특약은 꼭 넣어야 하나요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 필수 추천 항목이 아닙니다. 최근 암 치료 트렌드는 장기 입원보다는 통원 치료 및 외래 항암약물 치료 위주로 급격히 전환되었습니다. 또한 암 수술비는 실손보험에서 상당 부분 커버됩니다. 한정된 예산이라면 입원일당이나 수술비 특약에 지출할 보험료를 진단비나 표적항암약물치료비 한도를 높이는 데 집중 배분하는 것이 가성비 면에서 압도적으로 우수합니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q8. 80세 만기, 90세 만기, 100세 만기 중 몇 세 만기가 가장 합리적인가요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 기대수명이 85세를 넘어선 현대 사회에서 80세 만기는 보장 종료 이후 최고령 위험기에 공백이 생기므로 다소 부족합니다. 반면 100세 만기는 90세 만기 대비 보험료가 약 20%~30% 급상승합니다. 따라서 보장 기간의 실효성과 보험료의 경제성을 모두 만족하는 <strong>90세 만기</strong>가 대한민국 표준 설계에서 가장 권장되는 최적의 만기 설정입니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q9. 다이렉트 암보험 가입 시 납입면제 조건은 어떻게 되나요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 암보험의 납입면제란 가입 후 약관에서 정한 중대 사유가 발생했을 때 잔여 기간 동안의 보험료 납입을 전액 면제해 주고 만기까지 보장 혜택을 그대로 유지해 주는 제도입니다. 통상 일반암 진단 확정 시 또는 질병/상해 80% 이상 후유장해 발생 시 납입면제가 적용되며, 일부 손해보험사 상품은 뇌졸중 및 급성심근경색증 진단 시에도 암보험료 전체를 납입면제해 주는 혜택을 포함하고 있습니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Q10. 기존에 가입한 오래된 암보험을 해지하고 신상품으로 갈아타야 할까요?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        A. 과거 2000년대 초반 이전에 가입한 암보험은 갑상선암이 일반암에 포함되어 전액 지급되는 등 구관이 명관인 장점이 많으므로 절대 섣불리 해지해서는 안 됩니다. 기존 보험의 비갱신 일반암 진단비는 그대로 유지하면서, 과거 상품에는 전혀 없었던 최신 비급여 신치료 특약(표적항암제, 중입자치료비, 카티치료 등)만 월 1~2만 원대의 저렴한 다이렉트 미니 플랜으로 추가 보완하는 것이 가장 현명한 리모델링 전략입니다.
+                    </div>
+                </div>
+            </section>
+
+            <section class="external-sources">
+                <h3>공인된 신뢰성 있는 공식 정책 및 의학 정보 출처</h3>
+                <ul>
+                    <li><a href="https://cancersafeebohume.directreliable.com" target="_blank" rel="noopener noreferrer">보험정책연구소 암보험 다이렉트 정밀 요율 공시센터</a>: 국내 10대 보험사 연령별 비갱신형 최저가 요율 및 특약 비교 통계 데이터 제공</li>
+                    <li><a href="https://namu.wiki/w/%EC%95%94%EB%B3%B4%ED%97%98" target="_blank" rel="noopener noreferrer">나무위키 암보험 상세 백과사전</a>: 암보험의 역사, 약관상 암 분류 체계, 면책 및 감액 기간의 법률적 구조 해설</li>
+                    <li><a href="https://www.ncc.re.kr/" target="_blank" rel="noopener noreferrer">국립암센터 (National Cancer Center)</a>: 국가 암 등록 통계, 10대 암 5년 상대 생존율 및 최신 신의료기술 항암 임상 정보 안내</li>
+                    <li><a href="https://www.fss.or.kr/" target="_blank" rel="noopener noreferrer">금융감독원 (FSS) 금융소비자 정보 포털 파인</a>: 암보험 표준약관 개정 사항, 유사암 한도 가이드라인 및 소비자 유의사항 고시</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+ 
+  
+
+    <!-- Interactive Logic -->
+    <script>
+        // Quick Calculator in Sidebar
+        function calculateQuickQuote(e) {
+            e.preventDefault();
+            const age = parseInt(document.getElementById('calcAge').value, 10);
+            const gender = document.getElementById('calcGender').value;
+            const coverage = parseInt(document.getElementById('calcCoverage').value, 10);
+            const type = document.getElementById('calcType').value;
+
+            // Base rate per 10,000 KRW coverage
+            let baseRate = 8000;
+            if (age === 20) baseRate = gender === 'male' ? 6200 : 5700;
+            else if (age === 30) baseRate = gender === 'male' ? 8700 : 7700;
+            else if (age === 40) baseRate = gender === 'male' ? 13600 : 11200;
+            else if (age === 50) baseRate = gender === 'male' ? 22400 : 17000;
+            else if (age === 60) baseRate = gender === 'male' ? 39600 : 29000;
+            else if (age === 70) baseRate = gender === 'male' ? 58000 : 42000;
+
+            let multiplier = coverage / 5000;
+            let finalPrice = baseRate * multiplier;
+
+            if (type === 'renew') {
+                finalPrice = finalPrice * 0.45; // Renew rate is lower initially
+            }
+
+            const formattedPrice = Math.round(finalPrice / 100) * 100;
+            const priceString = formattedPrice.toLocaleString('ko-KR') + '원';
+
+            document.getElementById('quickResultPrice').innerText = priceString;
+            document.getElementById('quickResultDetail').innerText = `${age}대 ${gender === 'male' ? '남성' : '여성'} 일반암 ${coverage.toLocaleString('ko-KR')}만원 (${type === 'non_renew' ? '비갱신 20년납' : '20년 갱신형'}) 다이렉트 예상 요율`;
+            document.getElementById('quickResult').style.display = 'block';
+        }
+
+        // Detailed Simulator in Main Section
+        function runDetailedSimulation() {
+            const age = parseInt(document.getElementById('simAge').value, 10);
+            const gender = document.getElementById('simGender').value;
+            const plan = document.getElementById('simPlan').value;
+
+            let base = 48000;
+            if (age === 20) base = 32000;
+            else if (age === 30) base = 48000;
+            else if (age === 40) base = 75000;
+            else if (age === 50) base = 125000;
+            else if (age === 60) base = 180000;
+
+            if (gender === 'female') {
+                base = base * 0.85;
+            }
+
+            if (plan === 'basic') {
+                base = base * 0.65;
+            } else if (plan === 'premium') {
+                base = base * 1.75;
+            }
+
+            const finalPrice = Math.round(base / 100) * 100;
+            document.getElementById('simPriceOutput').innerText = finalPrice.toLocaleString('ko-KR') + '원';
+            document.getElementById('simDetailOutput').innerText = `${age}대 ${gender === 'male' ? '남성' : '여성'} ${plan === 'basic' ? '기본형' : plan === 'standard' ? '표준형' : '프리미엄'} 20년납 90세만기 비갱신 무해지환급형 추정 견적`;
+        }
+
+        // FAQ Toggle Accordion
+        function toggleFaq(element) {
+            const answer = element.nextElementSibling;
+            const sign = element.querySelector('span:last-child');
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                sign.innerText = '+';
+            } else {
+                answer.style.display = 'block';
+                sign.innerText = '-';
+            }
+        }
+
+        // Initialize display states on load
+        window.addEventListener('DOMContentLoaded', () => {
+            const faqAnswers = document.querySelectorAll('.faq-answer');
+            faqAnswers.forEach(ans => ans.style.display = 'none');
+            runDetailedSimulation();
+        });
+    </script>
+  
